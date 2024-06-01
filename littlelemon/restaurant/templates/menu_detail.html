@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<h1>{{ menu_item.name }}</h1>
+<p>Price: ${{ menu_item.price }}.00</p>
+<p>Description: {{ menu_item.description }}</p>
+{% endblock %}
